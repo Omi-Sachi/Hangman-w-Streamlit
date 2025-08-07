@@ -1,6 +1,6 @@
 # HangMan Using streamlit
 
-![Game StartPage](https://raw.githubusercontent.com/Omi-Sachi/Hangman-w-Streamlit/main/images/Restartgame.png)
+![Game StartPage](https://raw.githubusercontent.com/Omi-Sachi/Hangman-w-Streamlit/main/images/Startgame.png)
 
 This project was an oppurtunity for me to learn a popular framework called streamlit that allows you to deploy web applications with minimal code ( or so they say).
 
