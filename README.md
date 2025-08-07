@@ -1,6 +1,6 @@
 # HangMan Using streamlit
 
-![Game StartPage](https://raw.githubusercontent.com/Omi-Sachi/Hangman-w-Streamlit/main/images/Startgame.png)
+![Game StartPage](https://raw.githubusercontent.com/Omi-Sachi/Hangman-w-Streamlit/main/images/StartGame.png)
 
 This project was an oppurtunity for me to learn a popular framework called streamlit that allows you to deploy web applications with minimal code ( or so they say).
 
@@ -13,7 +13,7 @@ I kept wondering how I was going to display the hangman and the it clicked, stre
 ## My biggest challenges
 
 ### Re-runs:
-
+![Game StartPage](https://raw.githubusercontent.com/Omi-Sachi/Hangman-w-Streamlit/main/images/inputbox.png)
 I can’t fully describe how challenging the reruns in Streamlit have been for my projects. For those who don’t know:
 
 Streamlit runs your entire Python script from top to bottom every time something in the app’s state changes. This can happen when a user presses a button, switches tabs, or interacts with any widget.
@@ -29,6 +29,8 @@ I used `st.session_state` to save game data, so then when I called st.rerun() wh
 This way, the UI updates immediately on the same button press.
 
 ### The dynamic button
+
+![Game StartPage](https://raw.githubusercontent.com/Omi-Sachi/Hangman-w-Streamlit/main/images/Restartgame.png)
 I realized that the game needed two button one to start the game, which is only needed because the whole file is read at once and we call he function Gamemager with a parameter mode
 so if mode han't been selected yet an error occur so this button is a way of ensure mode has been selected.
 then we neede a restart button either if the user has finished the gme and want to to rey again.
@@ -67,6 +69,7 @@ whereas the conditon underneither refers to the variable button_clicked that is 
 This allows us to know the state ( true or false) of the button before and after it's been clicked, which we can map onto conditons we want for the button.
 
 ### The drawing system
+![Game StartPage](https://raw.githubusercontent.com/Omi-Sachi/Hangman-w-Streamlit/main/images/Matplotlib_grid.png)
 
 Figuring out how to draw the hangman with the least amount of code was difficult, I was initially going to use conditions ( if statements ) and manually write out
 what needs to be drawn for each wrong guess. I knew this would take too long, so instead I implemeted a list of coordinates and used a for loop to iterate through each element in the list up to 
