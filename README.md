@@ -1,5 +1,7 @@
 # HangMan Using streamlit
 
+![Game StartPage]()
+
 This project was an oppurtunity for me to learn a popular framework called streamlit that allows you to deploy web applications with minimal code ( or so they say).
 
 In this project I created a Hangman game that randomly selects a word from a word bank, and allows the user to guess a letter. The aim of the game, is to guess the word within
